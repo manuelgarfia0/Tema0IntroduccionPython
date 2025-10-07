@@ -6,13 +6,13 @@ class CuentaCorriente:
         self.__saldo = saldo
 
     # Getters
-    def get_dni(self):
+    def getDni(self):
         return self.__dni
     
-    def get_nombre(self):
+    def getNombre(self):
         return self.__nombre
     
-    def get_saldo(self):
+    def getSaldo(self):
         return self.__saldo
     
     # Métodos
@@ -27,17 +27,17 @@ class CuentaCorriente:
         self.__saldo += cantidad
 
     def __str__(self):
-        cadena = "DNI:", self.__dni, "Nombre:", self.__nombre, "Saldo:", self.__saldo
+        cadena = f"DNI: {self.__dni}, Nombre: {self.__nombre}, Saldo: {self.__saldo}"
         return cadena
 
     def __eq__(self, objeto):
         iguales = False
-        if self.get_dni() == objeto.dni:
+        if self.getDni() == objeto.getDni():
             iguales = True
         return iguales
 
     def __lt__(self, objeto):
         menor = False
-        if self.get_saldo() < objeto.saldo:
+        if self.getSaldo() < objeto.getSaldo():
             menor = True
         return menor
