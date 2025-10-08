@@ -1,0 +1,1074 @@
+[
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "Animal",
+        "importPath": "Animal",
+        "description": "Animal",
+        "isExtraImport": true,
+        "detail": "Animal",
+        "documentation": {}
+    },
+    {
+        "label": "Animal",
+        "importPath": "Animal",
+        "description": "Animal",
+        "isExtraImport": true,
+        "detail": "Animal",
+        "documentation": {}
+    },
+    {
+        "label": "Perro",
+        "importPath": "Perro",
+        "description": "Perro",
+        "isExtraImport": true,
+        "detail": "Perro",
+        "documentation": {}
+    },
+    {
+        "label": "Gato",
+        "importPath": "Gato",
+        "description": "Gato",
+        "isExtraImport": true,
+        "detail": "Gato",
+        "documentation": {}
+    },
+    {
+        "label": "Empleado",
+        "importPath": "Empleado",
+        "description": "Empleado",
+        "isExtraImport": true,
+        "detail": "Empleado",
+        "documentation": {}
+    },
+    {
+        "label": "Empleado",
+        "importPath": "Empleado",
+        "description": "Empleado",
+        "isExtraImport": true,
+        "detail": "Empleado",
+        "documentation": {}
+    },
+    {
+        "label": "Empleado",
+        "importPath": "Empleado",
+        "description": "Empleado",
+        "isExtraImport": true,
+        "detail": "Empleado",
+        "documentation": {}
+    },
+    {
+        "label": "Directivo",
+        "importPath": "Directivo",
+        "description": "Directivo",
+        "isExtraImport": true,
+        "detail": "Directivo",
+        "documentation": {}
+    },
+    {
+        "label": "Operario",
+        "importPath": "Operario",
+        "description": "Operario",
+        "isExtraImport": true,
+        "detail": "Operario",
+        "documentation": {}
+    },
+    {
+        "label": "Operario",
+        "importPath": "Operario",
+        "description": "Operario",
+        "isExtraImport": true,
+        "detail": "Operario",
+        "documentation": {}
+    },
+    {
+        "label": "Operario",
+        "importPath": "Operario",
+        "description": "Operario",
+        "isExtraImport": true,
+        "detail": "Operario",
+        "documentation": {}
+    },
+    {
+        "label": "Oficial",
+        "importPath": "Oficial",
+        "description": "Oficial",
+        "isExtraImport": true,
+        "detail": "Oficial",
+        "documentation": {}
+    },
+    {
+        "label": "Tecnico",
+        "importPath": "Tecnico",
+        "description": "Tecnico",
+        "isExtraImport": true,
+        "detail": "Tecnico",
+        "documentation": {}
+    },
+    {
+        "label": "Perecedero",
+        "importPath": "Perecedero",
+        "description": "Perecedero",
+        "isExtraImport": true,
+        "detail": "Perecedero",
+        "documentation": {}
+    },
+    {
+        "label": "NoPerecedero",
+        "importPath": "NoPerecedero",
+        "description": "NoPerecedero",
+        "isExtraImport": true,
+        "detail": "NoPerecedero",
+        "documentation": {}
+    },
+    {
+        "label": "Productos",
+        "importPath": "Productos",
+        "description": "Productos",
+        "isExtraImport": true,
+        "detail": "Productos",
+        "documentation": {}
+    },
+    {
+        "label": "Productos",
+        "importPath": "Productos",
+        "description": "Productos",
+        "isExtraImport": true,
+        "detail": "Productos",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "apuntes.bucles",
+        "description": "apuntes.bucles",
+        "peekOfCode": "age = 0\n# Increment the age until it reaches 18\nwhile age < 18:\n    age += 1\n    print(\"Congrats, you are\", age, \"years old\")\n#Loop for in a string\nstring = input(\"Enter a string: \")\nfor letter in string:\n    print(letter)\n# Loop for in a range",
+        "detail": "apuntes.bucles",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 5,
+        "importPath": "apuntes.bucles",
+        "description": "apuntes.bucles",
+        "peekOfCode": "string = input(\"Enter a string: \")\nfor letter in string:\n    print(letter)\n# Loop for in a range\nfor number in range(1, 101):\n    print(number)",
+        "detail": "apuntes.bucles",
+        "documentation": {}
+    },
+    {
+        "label": "triple",
+        "kind": 5,
+        "importPath": "apuntes.cadenas",
+        "description": "apuntes.cadenas",
+        "peekOfCode": "triple = \"First line\\nSecond line\"\nprint(triple)\n#Using triple quotes\ntriple = \"\"\"Firt line\nSecond line\"\"\"\nprint(triple)",
+        "detail": "apuntes.cadenas",
+        "documentation": {}
+    },
+    {
+        "label": "triple",
+        "kind": 5,
+        "importPath": "apuntes.cadenas",
+        "description": "apuntes.cadenas",
+        "peekOfCode": "triple = \"\"\"Firt line\nSecond line\"\"\"\nprint(triple)",
+        "detail": "apuntes.cadenas",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "apuntes.condicionales",
+        "description": "apuntes.condicionales",
+        "peekOfCode": "a = 3\nb = 8\n#Conditional statements\nif a == b:\n    print(\"they are equals\")\nelif a < b:\n    print(\"a is less than b\")\nelse:\n    print(\"a is greater than b\")\n#Another form of conditional statement",
+        "detail": "apuntes.condicionales",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "apuntes.condicionales",
+        "description": "apuntes.condicionales",
+        "peekOfCode": "b = 8\n#Conditional statements\nif a == b:\n    print(\"they are equals\")\nelif a < b:\n    print(\"a is less than b\")\nelse:\n    print(\"a is greater than b\")\n#Another form of conditional statement\nnum = 3",
+        "detail": "apuntes.condicionales",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "apuntes.condicionales",
+        "description": "apuntes.condicionales",
+        "peekOfCode": "num = 3\nvar = \"odd\" if (num % 2 == 0) else \"even\"\nprint(var)",
+        "detail": "apuntes.condicionales",
+        "documentation": {}
+    },
+    {
+        "label": "var",
+        "kind": 5,
+        "importPath": "apuntes.condicionales",
+        "description": "apuntes.condicionales",
+        "peekOfCode": "var = \"odd\" if (num % 2 == 0) else \"even\"\nprint(var)",
+        "detail": "apuntes.condicionales",
+        "documentation": {}
+    },
+    {
+        "label": "user_name",
+        "kind": 5,
+        "importPath": "apuntes.entrada_salida_datos",
+        "description": "apuntes.entrada_salida_datos",
+        "peekOfCode": "user_name = input(\"¿What's your name? \")\nprint(\"Hello\", user_name)\nage = int(input(\"¿What's your age? \"))\nage += 1\nprint(\"Your age + 1 is:\", age)",
+        "detail": "apuntes.entrada_salida_datos",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "apuntes.entrada_salida_datos",
+        "description": "apuntes.entrada_salida_datos",
+        "peekOfCode": "age = int(input(\"¿What's your age? \"))\nage += 1\nprint(\"Your age + 1 is:\", age)",
+        "detail": "apuntes.entrada_salida_datos",
+        "documentation": {}
+    },
+    {
+        "label": "function",
+        "kind": 2,
+        "importPath": "apuntes.funciones",
+        "description": "apuntes.funciones",
+        "peekOfCode": "def function(param1, param2):\n    \"\"\"This function takes two parameters\n    and returns their sum.\"\"\"\n    res = param1 + param2\n    return res\n# Calling the function and printing the result\naddition = function(2, 3)\nprint(addition)\n# Function with a default parameter\ndef greet(name = \"Manuel\"):",
+        "detail": "apuntes.funciones",
+        "documentation": {}
+    },
+    {
+        "label": "greet",
+        "kind": 2,
+        "importPath": "apuntes.funciones",
+        "description": "apuntes.funciones",
+        "peekOfCode": "def greet(name = \"Manuel\"):\n    print(\"Hello\", name)\ngreet(\"Alvaro\")\ngreet()",
+        "detail": "apuntes.funciones",
+        "documentation": {}
+    },
+    {
+        "label": "addition",
+        "kind": 5,
+        "importPath": "apuntes.funciones",
+        "description": "apuntes.funciones",
+        "peekOfCode": "addition = function(2, 3)\nprint(addition)\n# Function with a default parameter\ndef greet(name = \"Manuel\"):\n    print(\"Hello\", name)\ngreet(\"Alvaro\")\ngreet()",
+        "detail": "apuntes.funciones",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 5,
+        "importPath": "apuntes.funciones_cadenas",
+        "description": "apuntes.funciones_cadenas",
+        "peekOfCode": "string = \"Example large string\"\n# Show simple character of the string\nprint (string[5])\n#Show a slice of the string\nprint (string[5:15])\n#Show words of the string separated by spaces\nwords = string.split()\nprint(words)\n#Show words of the string separated by \"l\"\nwords = string.split(\"l\")",
+        "detail": "apuntes.funciones_cadenas",
+        "documentation": {}
+    },
+    {
+        "label": "words",
+        "kind": 5,
+        "importPath": "apuntes.funciones_cadenas",
+        "description": "apuntes.funciones_cadenas",
+        "peekOfCode": "words = string.split()\nprint(words)\n#Show words of the string separated by \"l\"\nwords = string.split(\"l\")\nprint(words)\n#Join words of a list into a string with spaces\ncadena = \" \".join([\"String\", \"with\", \"spaces\"])\nprint(cadena)\n#Length of the string\nstring = \"Hello\"",
+        "detail": "apuntes.funciones_cadenas",
+        "documentation": {}
+    },
+    {
+        "label": "words",
+        "kind": 5,
+        "importPath": "apuntes.funciones_cadenas",
+        "description": "apuntes.funciones_cadenas",
+        "peekOfCode": "words = string.split(\"l\")\nprint(words)\n#Join words of a list into a string with spaces\ncadena = \" \".join([\"String\", \"with\", \"spaces\"])\nprint(cadena)\n#Length of the string\nstring = \"Hello\"\nprint(len(string))",
+        "detail": "apuntes.funciones_cadenas",
+        "documentation": {}
+    },
+    {
+        "label": "cadena",
+        "kind": 5,
+        "importPath": "apuntes.funciones_cadenas",
+        "description": "apuntes.funciones_cadenas",
+        "peekOfCode": "cadena = \" \".join([\"String\", \"with\", \"spaces\"])\nprint(cadena)\n#Length of the string\nstring = \"Hello\"\nprint(len(string))",
+        "detail": "apuntes.funciones_cadenas",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 5,
+        "importPath": "apuntes.funciones_cadenas",
+        "description": "apuntes.funciones_cadenas",
+        "peekOfCode": "string = \"Hello\"\nprint(len(string))",
+        "detail": "apuntes.funciones_cadenas",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 5,
+        "importPath": "apuntes.operadores",
+        "description": "apuntes.operadores",
+        "peekOfCode": "r = 3 + 2\nprint(r)\n#Subtract\nr = 4 - 7\nprint(r)\n#Result is negative\nr  = -7\nprint(r)\n#Multiply\nr = 2 * 6",
+        "detail": "apuntes.operadores",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 5,
+        "importPath": "apuntes.operadores",
+        "description": "apuntes.operadores",
+        "peekOfCode": "r = 4 - 7\nprint(r)\n#Result is negative\nr  = -7\nprint(r)\n#Multiply\nr = 2 * 6\nprint(r)\n#Exponentiation\nr = 2 ** 6",
+        "detail": "apuntes.operadores",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 5,
+        "importPath": "apuntes.operadores",
+        "description": "apuntes.operadores",
+        "peekOfCode": "r = 2 * 6\nprint(r)\n#Exponentiation\nr = 2 ** 6\nprint(r)\n#Divide\nr = 3.5 / 2\nprint(r)\n#Floor division\nr = 3.5 // 2",
+        "detail": "apuntes.operadores",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 5,
+        "importPath": "apuntes.operadores",
+        "description": "apuntes.operadores",
+        "peekOfCode": "r = 2 ** 6\nprint(r)\n#Divide\nr = 3.5 / 2\nprint(r)\n#Floor division\nr = 3.5 // 2\nprint(r)\n#Modulus\nr = 7 % 2",
+        "detail": "apuntes.operadores",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 5,
+        "importPath": "apuntes.operadores",
+        "description": "apuntes.operadores",
+        "peekOfCode": "r = 3.5 / 2\nprint(r)\n#Floor division\nr = 3.5 // 2\nprint(r)\n#Modulus\nr = 7 % 2\nprint(r)",
+        "detail": "apuntes.operadores",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 5,
+        "importPath": "apuntes.operadores",
+        "description": "apuntes.operadores",
+        "peekOfCode": "r = 3.5 // 2\nprint(r)\n#Modulus\nr = 7 % 2\nprint(r)",
+        "detail": "apuntes.operadores",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 5,
+        "importPath": "apuntes.operadores",
+        "description": "apuntes.operadores",
+        "peekOfCode": "r = 7 % 2\nprint(r)",
+        "detail": "apuntes.operadores",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "apuntes.operadores_cadenas",
+        "description": "apuntes.operadores_cadenas",
+        "peekOfCode": "a = \"one\"\nb = \"two\"\n#Concatenate strings\nc = a + b\nprint(c)\n#Repeat string\nc = a * 3\nprint(c)",
+        "detail": "apuntes.operadores_cadenas",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "apuntes.operadores_cadenas",
+        "description": "apuntes.operadores_cadenas",
+        "peekOfCode": "b = \"two\"\n#Concatenate strings\nc = a + b\nprint(c)\n#Repeat string\nc = a * 3\nprint(c)",
+        "detail": "apuntes.operadores_cadenas",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "apuntes.operadores_cadenas",
+        "description": "apuntes.operadores_cadenas",
+        "peekOfCode": "c = a + b\nprint(c)\n#Repeat string\nc = a * 3\nprint(c)",
+        "detail": "apuntes.operadores_cadenas",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "apuntes.operadores_cadenas",
+        "description": "apuntes.operadores_cadenas",
+        "peekOfCode": "c = a * 3\nprint(c)",
+        "detail": "apuntes.operadores_cadenas",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "apuntes.tipos_basicos",
+        "description": "apuntes.tipos_basicos",
+        "peekOfCode": "c = \"Hello world\"\n#This is an int\ne = 23\n#Show type of variables\nprint(type(c))\nprint(type(e))",
+        "detail": "apuntes.tipos_basicos",
+        "documentation": {}
+    },
+    {
+        "label": "e",
+        "kind": 5,
+        "importPath": "apuntes.tipos_basicos",
+        "description": "apuntes.tipos_basicos",
+        "peekOfCode": "e = 23\n#Show type of variables\nprint(type(c))\nprint(type(e))",
+        "detail": "apuntes.tipos_basicos",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "boletin1.ejercicio01",
+        "description": "boletin1.ejercicio01",
+        "peekOfCode": "num = int(input(\"Introduce un numero: \"))\n# Comprobar si el número es par o impar\nif num % 2 == 0:\n    print(\"El número es par\")\nelse:\n    print(\"El número es impar\")",
+        "detail": "boletin1.ejercicio01",
+        "documentation": {}
+    },
+    {
+        "label": "num1",
+        "kind": 5,
+        "importPath": "boletin1.ejercicio02",
+        "description": "boletin1.ejercicio02",
+        "peekOfCode": "num1 = int(input(\"Introduce el primer número: \"))\nnum2 = int(input(\"Introduce el segundo número: \"))\n# Comprobar cuál de los dos números es mayor y mostrarlos en orden ascendente\nif num1 < num2:\n    print(\"Los números ordenados son: \" + str(num1), str(num2))\nelif num1 == num2:\n    print(\"Los números son iguales: \" + str(num1), str(num2))\nelse:\n    print(\"Los números ordenados son: \" + str(num1), str(num2))",
+        "detail": "boletin1.ejercicio02",
+        "documentation": {}
+    },
+    {
+        "label": "num2",
+        "kind": 5,
+        "importPath": "boletin1.ejercicio02",
+        "description": "boletin1.ejercicio02",
+        "peekOfCode": "num2 = int(input(\"Introduce el segundo número: \"))\n# Comprobar cuál de los dos números es mayor y mostrarlos en orden ascendente\nif num1 < num2:\n    print(\"Los números ordenados son: \" + str(num1), str(num2))\nelif num1 == num2:\n    print(\"Los números son iguales: \" + str(num1), str(num2))\nelse:\n    print(\"Los números ordenados son: \" + str(num1), str(num2))",
+        "detail": "boletin1.ejercicio02",
+        "documentation": {}
+    },
+    {
+        "label": "suma",
+        "kind": 5,
+        "importPath": "boletin1.ejercicio03",
+        "description": "boletin1.ejercicio03",
+        "peekOfCode": "suma = 0\nnum = 0\n# Pido al usuario que introduzca un número\nnum = int(input(\"Introduce un número entero positivo (o un número negativo para terminar): \"))\n# Mientras el número sea positivo, lo sumo a la variable suma\nwhile num >= 0:\n    # Si el número es positivo, lo sumo a la variable suma\n    suma += num\n    # Pido al usuario que introduzca un número\n    num = int(input(\"Introduce un número entero positivo (o un número negativo para terminar): \"))",
+        "detail": "boletin1.ejercicio03",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "boletin1.ejercicio03",
+        "description": "boletin1.ejercicio03",
+        "peekOfCode": "num = 0\n# Pido al usuario que introduzca un número\nnum = int(input(\"Introduce un número entero positivo (o un número negativo para terminar): \"))\n# Mientras el número sea positivo, lo sumo a la variable suma\nwhile num >= 0:\n    # Si el número es positivo, lo sumo a la variable suma\n    suma += num\n    # Pido al usuario que introduzca un número\n    num = int(input(\"Introduce un número entero positivo (o un número negativo para terminar): \"))\n# Muestro la suma de los números positivos introducidos",
+        "detail": "boletin1.ejercicio03",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "boletin1.ejercicio03",
+        "description": "boletin1.ejercicio03",
+        "peekOfCode": "num = int(input(\"Introduce un número entero positivo (o un número negativo para terminar): \"))\n# Mientras el número sea positivo, lo sumo a la variable suma\nwhile num >= 0:\n    # Si el número es positivo, lo sumo a la variable suma\n    suma += num\n    # Pido al usuario que introduzca un número\n    num = int(input(\"Introduce un número entero positivo (o un número negativo para terminar): \"))\n# Muestro la suma de los números positivos introducidos\nprint(\"La suma de los números positivos introducidos es:\", suma)",
+        "detail": "boletin1.ejercicio03",
+        "documentation": {}
+    },
+    {
+        "label": "numero_secreto",
+        "kind": 5,
+        "importPath": "boletin1.ejercicio04",
+        "description": "boletin1.ejercicio04",
+        "peekOfCode": "numero_secreto = random.randint(1, 101)\n# Inicializamos la variable intento\nintento = 0\n# Usamos un bucle while para que hasta que el usuario no adivine el número o se rinda siga pidiendo números\nwhile intento != numero_secreto and intento != -1:\n    # Pedimos al usuario que introduzca un número\n    intento = int(input(\"Adivina el número secreto (entre 1 y 100): \"))\n    # Comprobamos si el número es mayor, menor o igual al número secreto\n    if intento < numero_secreto and intento != -1:\n        print(\"Demasiado bajo. Inténtalo de nuevo.\")",
+        "detail": "boletin1.ejercicio04",
+        "documentation": {}
+    },
+    {
+        "label": "intento",
+        "kind": 5,
+        "importPath": "boletin1.ejercicio04",
+        "description": "boletin1.ejercicio04",
+        "peekOfCode": "intento = 0\n# Usamos un bucle while para que hasta que el usuario no adivine el número o se rinda siga pidiendo números\nwhile intento != numero_secreto and intento != -1:\n    # Pedimos al usuario que introduzca un número\n    intento = int(input(\"Adivina el número secreto (entre 1 y 100): \"))\n    # Comprobamos si el número es mayor, menor o igual al número secreto\n    if intento < numero_secreto and intento != -1:\n        print(\"Demasiado bajo. Inténtalo de nuevo.\")\n    elif intento > numero_secreto:\n        print(\"Demasiado alto. Inténtalo de nuevo.\")",
+        "detail": "boletin1.ejercicio04",
+        "documentation": {}
+    },
+    {
+        "label": "numero",
+        "kind": 5,
+        "importPath": "boletin1.ejercicio05",
+        "description": "boletin1.ejercicio05",
+        "peekOfCode": "numero = int(input(\"Introduce un número: \"))\n# Mostrar los números desde 1 hasta el número introducido\nfor i in range(1, numero + 1):\n    print(i)",
+        "detail": "boletin1.ejercicio05",
+        "documentation": {}
+    },
+    {
+        "label": "numero",
+        "kind": 5,
+        "importPath": "boletin1.ejercicio06",
+        "description": "boletin1.ejercicio06",
+        "peekOfCode": "numero = int(input(\"Introduce un número: \"))\n# Inicializar la variable factorial\nfactorial = 1\n# Calcular el factorial del número introducido\nfor i in range(numero, 0, -1):\n    factorial *= i\n# Mostrar el resultado\nprint(\"El factorial de\", numero, \"es\", factorial)",
+        "detail": "boletin1.ejercicio06",
+        "documentation": {}
+    },
+    {
+        "label": "factorial",
+        "kind": 5,
+        "importPath": "boletin1.ejercicio06",
+        "description": "boletin1.ejercicio06",
+        "peekOfCode": "factorial = 1\n# Calcular el factorial del número introducido\nfor i in range(numero, 0, -1):\n    factorial *= i\n# Mostrar el resultado\nprint(\"El factorial de\", numero, \"es\", factorial)",
+        "detail": "boletin1.ejercicio06",
+        "documentation": {}
+    },
+    {
+        "label": "numero",
+        "kind": 5,
+        "importPath": "boletin1.ejercicio07",
+        "description": "boletin1.ejercicio07",
+        "peekOfCode": "numero = int(input(\"Introduce un número entero positivo: \"))\n# Mientras el número no sea positivo, seguimos pidiendo un número\nwhile numero <= 0:\n\tnumero = int(input(\"Por favor, introduce un número entero positivo: \"))\n# Si el número es 1, no es primo\nif numero == 1:\n\tprint(\"1 no es primo.\")\nelse:\n\tes_primo = True\n\ti = 2",
+        "detail": "boletin1.ejercicio07",
+        "documentation": {}
+    },
+    {
+        "label": "\tnumero",
+        "kind": 5,
+        "importPath": "boletin1.ejercicio07",
+        "description": "boletin1.ejercicio07",
+        "peekOfCode": "\tnumero = int(input(\"Por favor, introduce un número entero positivo: \"))\n# Si el número es 1, no es primo\nif numero == 1:\n\tprint(\"1 no es primo.\")\nelse:\n\tes_primo = True\n\ti = 2\n\t#  Mientras i sea menor que el número y es_primo sea True, seguimos comprobando\n\twhile i < numero and es_primo:\n\t\t# Si el número es divisible por i, no es primo",
+        "detail": "boletin1.ejercicio07",
+        "documentation": {}
+    },
+    {
+        "label": "\tes_primo",
+        "kind": 5,
+        "importPath": "boletin1.ejercicio07",
+        "description": "boletin1.ejercicio07",
+        "peekOfCode": "\tes_primo = True\n\ti = 2\n\t#  Mientras i sea menor que el número y es_primo sea True, seguimos comprobando\n\twhile i < numero and es_primo:\n\t\t# Si el número es divisible por i, no es primo\n\t\tif numero % i == 0:\n\t\t\tes_primo = False\n\t\t# Incrementamos i en 1 para comprobar el siguiente número\n\t\ti += 1\n\t# Si es_primo sigue siendo True, el número es primo",
+        "detail": "boletin1.ejercicio07",
+        "documentation": {}
+    },
+    {
+        "label": "\ti",
+        "kind": 5,
+        "importPath": "boletin1.ejercicio07",
+        "description": "boletin1.ejercicio07",
+        "peekOfCode": "\ti = 2\n\t#  Mientras i sea menor que el número y es_primo sea True, seguimos comprobando\n\twhile i < numero and es_primo:\n\t\t# Si el número es divisible por i, no es primo\n\t\tif numero % i == 0:\n\t\t\tes_primo = False\n\t\t# Incrementamos i en 1 para comprobar el siguiente número\n\t\ti += 1\n\t# Si es_primo sigue siendo True, el número es primo\n\tif es_primo:",
+        "detail": "boletin1.ejercicio07",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tes_primo",
+        "kind": 5,
+        "importPath": "boletin1.ejercicio07",
+        "description": "boletin1.ejercicio07",
+        "peekOfCode": "\t\t\tes_primo = False\n\t\t# Incrementamos i en 1 para comprobar el siguiente número\n\t\ti += 1\n\t# Si es_primo sigue siendo True, el número es primo\n\tif es_primo:\n\t\tprint(numero,\"es primo.\")\n\t# Si es_primo es False, el número no es primo\n\telse:\n\t\tprint(numero,\"no es primo.\")",
+        "detail": "boletin1.ejercicio07",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "boletin1.ejercicio08",
+        "description": "boletin1.ejercicio08",
+        "peekOfCode": "n = int(input(\"Introduce la base y altura del triángulo: \"))\n# Con un bucle for, imprimimos cada fila del triángulo\nfor fila in range(1, n+1):\n\t# Imprimimos los espacios y los asteriscos correspondientes a la fila actual\n\tprint(\" \" * (n - fila) + \"* \" * fila)",
+        "detail": "boletin1.ejercicio08",
+        "documentation": {}
+    },
+    {
+        "label": "intervalo",
+        "kind": 2,
+        "importPath": "boletin1.ejercicio09",
+        "description": "boletin1.ejercicio09",
+        "peekOfCode": "def intervalo(a, b):\n    # Si a es mayor que b, intercambiamos sus valores\n    if a > b:\n        a, b = b, a\n    # Imprimimos los números desde a hasta b (inclusive)\n    for i in range(a, b + 1):\n        print(i)\n# Llamamos a la función intervalo con los números introducidos por el usuario\nintervalo(numero, numero2)",
+        "detail": "boletin1.ejercicio09",
+        "documentation": {}
+    },
+    {
+        "label": "numero",
+        "kind": 5,
+        "importPath": "boletin1.ejercicio09",
+        "description": "boletin1.ejercicio09",
+        "peekOfCode": "numero = int(input(\"Introduce un número: \"))\nnumero2 = int(input(\"Introduce otro número: \"))\n# Definimos la función intervalo que imprime los números entre a y b\ndef intervalo(a, b):\n    # Si a es mayor que b, intercambiamos sus valores\n    if a > b:\n        a, b = b, a\n    # Imprimimos los números desde a hasta b (inclusive)\n    for i in range(a, b + 1):\n        print(i)",
+        "detail": "boletin1.ejercicio09",
+        "documentation": {}
+    },
+    {
+        "label": "numero2",
+        "kind": 5,
+        "importPath": "boletin1.ejercicio09",
+        "description": "boletin1.ejercicio09",
+        "peekOfCode": "numero2 = int(input(\"Introduce otro número: \"))\n# Definimos la función intervalo que imprime los números entre a y b\ndef intervalo(a, b):\n    # Si a es mayor que b, intercambiamos sus valores\n    if a > b:\n        a, b = b, a\n    # Imprimimos los números desde a hasta b (inclusive)\n    for i in range(a, b + 1):\n        print(i)\n# Llamamos a la función intervalo con los números introducidos por el usuario",
+        "detail": "boletin1.ejercicio09",
+        "documentation": {}
+    },
+    {
+        "label": "mayor",
+        "kind": 2,
+        "importPath": "boletin1.ejercicio10",
+        "description": "boletin1.ejercicio10",
+        "peekOfCode": "def mayor(a, b):\n    # Comparamos los dos números y devolvemos el mayor\n    if a > b:\n        return a\n    else:\n        return b\n# Imprimimos el resultado llamando a la función mayor con los números introducidos por el usuario\nprint(\"El número mayor es:\", mayor(num1, num2))",
+        "detail": "boletin1.ejercicio10",
+        "documentation": {}
+    },
+    {
+        "label": "num1",
+        "kind": 5,
+        "importPath": "boletin1.ejercicio10",
+        "description": "boletin1.ejercicio10",
+        "peekOfCode": "num1 = int(input(\"Introduce el primer número: \"))\nnum2 = int(input(\"Introduce el segundo número: \"))\n# Definimos la función mayor que devuelve el mayor de dos números\ndef mayor(a, b):\n    # Comparamos los dos números y devolvemos el mayor\n    if a > b:\n        return a\n    else:\n        return b\n# Imprimimos el resultado llamando a la función mayor con los números introducidos por el usuario",
+        "detail": "boletin1.ejercicio10",
+        "documentation": {}
+    },
+    {
+        "label": "num2",
+        "kind": 5,
+        "importPath": "boletin1.ejercicio10",
+        "description": "boletin1.ejercicio10",
+        "peekOfCode": "num2 = int(input(\"Introduce el segundo número: \"))\n# Definimos la función mayor que devuelve el mayor de dos números\ndef mayor(a, b):\n    # Comparamos los dos números y devolvemos el mayor\n    if a > b:\n        return a\n    else:\n        return b\n# Imprimimos el resultado llamando a la función mayor con los números introducidos por el usuario\nprint(\"El número mayor es:\", mayor(num1, num2))",
+        "detail": "boletin1.ejercicio10",
+        "documentation": {}
+    },
+    {
+        "label": "vocal",
+        "kind": 2,
+        "importPath": "boletin1.ejercicio11",
+        "description": "boletin1.ejercicio11",
+        "peekOfCode": "def vocal(letra):\n    # Comprobamos si la letra está en la cadena de vocales\n    if letra in 'aeiou':\n        letra_vocal = True\n    else:\n        letra_vocal = False\n    return letra_vocal\n# Imprimimos el resultado llamando a la función vocal con la letra introducida por el usuario\nif vocal(letra):\n    print(\"La letra\", letra, \"es una vocal.\")",
+        "detail": "boletin1.ejercicio11",
+        "documentation": {}
+    },
+    {
+        "label": "letra",
+        "kind": 5,
+        "importPath": "boletin1.ejercicio11",
+        "description": "boletin1.ejercicio11",
+        "peekOfCode": "letra = str(input(\"Introduce una letra: \")).lower()\n# Definimos la función vocal que comprueba si una letra es vocal\ndef vocal(letra):\n    # Comprobamos si la letra está en la cadena de vocales\n    if letra in 'aeiou':\n        letra_vocal = True\n    else:\n        letra_vocal = False\n    return letra_vocal\n# Imprimimos el resultado llamando a la función vocal con la letra introducida por el usuario",
+        "detail": "boletin1.ejercicio11",
+        "documentation": {}
+    },
+    {
+        "label": "calculadora",
+        "kind": 2,
+        "importPath": "boletin1.ejercicio12",
+        "description": "boletin1.ejercicio12",
+        "peekOfCode": "def calculadora(a, b, operacion):\n    if operacion == 1:\n        resultado = a + b\n    elif operacion == 2:\n        resultado = a - b\n    elif operacion == 3:\n        resultado = a * b\n    elif operacion == 4:\n        resultado = a / b\n    else:",
+        "detail": "boletin1.ejercicio12",
+        "documentation": {}
+    },
+    {
+        "label": "num1",
+        "kind": 5,
+        "importPath": "boletin1.ejercicio12",
+        "description": "boletin1.ejercicio12",
+        "peekOfCode": "num1 = int(input(\"Introduce el primer número: \"))\nnum2 = int(input(\"Introduce el segundo número: \"))\n# Definimos la función calculadora que realiza una operación básica\ndef calculadora(a, b, operacion):\n    if operacion == 1:\n        resultado = a + b\n    elif operacion == 2:\n        resultado = a - b\n    elif operacion == 3:\n        resultado = a * b",
+        "detail": "boletin1.ejercicio12",
+        "documentation": {}
+    },
+    {
+        "label": "num2",
+        "kind": 5,
+        "importPath": "boletin1.ejercicio12",
+        "description": "boletin1.ejercicio12",
+        "peekOfCode": "num2 = int(input(\"Introduce el segundo número: \"))\n# Definimos la función calculadora que realiza una operación básica\ndef calculadora(a, b, operacion):\n    if operacion == 1:\n        resultado = a + b\n    elif operacion == 2:\n        resultado = a - b\n    elif operacion == 3:\n        resultado = a * b\n    elif operacion == 4:",
+        "detail": "boletin1.ejercicio12",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "kind": 5,
+        "importPath": "boletin1.ejercicio12",
+        "description": "boletin1.ejercicio12",
+        "peekOfCode": "op = int(input(\"¿Qué operación deseas realizar? (1=suma, 2=resta, 3=multiplicación, 4=división): \"))\n# Llamamos a la función calculadora con los números y la operación elegida\nresultado = calculadora(num1, num2, op)\n# Imprimimos el resultado\nprint(\"Resultado:\", resultado)",
+        "detail": "boletin1.ejercicio12",
+        "documentation": {}
+    },
+    {
+        "label": "resultado",
+        "kind": 5,
+        "importPath": "boletin1.ejercicio12",
+        "description": "boletin1.ejercicio12",
+        "peekOfCode": "resultado = calculadora(num1, num2, op)\n# Imprimimos el resultado\nprint(\"Resultado:\", resultado)",
+        "detail": "boletin1.ejercicio12",
+        "documentation": {}
+    },
+    {
+        "label": "numeros",
+        "kind": 5,
+        "importPath": "boletin2.ejercicio01",
+        "description": "boletin2.ejercicio01",
+        "peekOfCode": "numeros = []\nfor i in range(10):\n    numeros.append(random.randint(1, 101))\n# Imprimir la lista\nprint(numeros)",
+        "detail": "boletin2.ejercicio01",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "boletin2.ejercicio02",
+        "description": "boletin2.ejercicio02",
+        "peekOfCode": "num = []\nfor i in range(10):\n    numero = int(input(\"Introduce un número positivo: \"))\n    num.append(numero)\n# Indicamos el mayor y el menor número de la lista recorriendola\nmayor = num[0]\nmenor = num[0]\n# Recorremos la lista para encontrar el mayor y el menor número\nfor n in num:\n    if n > mayor:",
+        "detail": "boletin2.ejercicio02",
+        "documentation": {}
+    },
+    {
+        "label": "mayor",
+        "kind": 5,
+        "importPath": "boletin2.ejercicio02",
+        "description": "boletin2.ejercicio02",
+        "peekOfCode": "mayor = num[0]\nmenor = num[0]\n# Recorremos la lista para encontrar el mayor y el menor número\nfor n in num:\n    if n > mayor:\n        mayor = n\n    if n < menor:\n        menor = n\nprint(\"El mayor es:\", mayor)\nprint(\"El menor es:\", menor)",
+        "detail": "boletin2.ejercicio02",
+        "documentation": {}
+    },
+    {
+        "label": "menor",
+        "kind": 5,
+        "importPath": "boletin2.ejercicio02",
+        "description": "boletin2.ejercicio02",
+        "peekOfCode": "menor = num[0]\n# Recorremos la lista para encontrar el mayor y el menor número\nfor n in num:\n    if n > mayor:\n        mayor = n\n    if n < menor:\n        menor = n\nprint(\"El mayor es:\", mayor)\nprint(\"El menor es:\", menor)",
+        "detail": "boletin2.ejercicio02",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "boletin2.ejercicio03",
+        "description": "boletin2.ejercicio03",
+        "peekOfCode": "num = []\nfor i in range(8):\n    numero = int(input(\"Introduce un número entero: \"))\n    num.append(numero)\n# Mostrar los números con par o impar al lado del número dependiendo de cada uno\nfor n in num: \n    if n % 2 == 0:\n        print(n, \"par\")\n    else:\n        print(n, \"impar\")",
+        "detail": "boletin2.ejercicio03",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "boletin2.ejercicio04",
+        "description": "boletin2.ejercicio04",
+        "peekOfCode": "num = []\n# Pedir al usuario que introduzca 10 números enteros\nfor i in range (10):\n    numero = int(input(\"Introduce un número entero: \"))\n    num.append(numero)\n# Mostrar la lista ordenada de mayor a menor\nnum.sort(reverse=True)\nprint(num)",
+        "detail": "boletin2.ejercicio04",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "boletin2.ejercicio05",
+        "description": "boletin2.ejercicio05",
+        "peekOfCode": "num = []\n# Rellenar la lista con 100 números aleatorios entre 1 y 10\nfor i in range(100):\n    numero = random.randint(1, 10)\n    num.append(numero)\n# Pedir un valor al usuario y mostrar cuántas veces aparece ese valor en la lista\nnumeroBuscar = int(input(\"Introduce un número entre 1 y 10: \"))\ncontador = 0\nfor n in num:\n    if n == numeroBuscar:",
+        "detail": "boletin2.ejercicio05",
+        "documentation": {}
+    },
+    {
+        "label": "numeroBuscar",
+        "kind": 5,
+        "importPath": "boletin2.ejercicio05",
+        "description": "boletin2.ejercicio05",
+        "peekOfCode": "numeroBuscar = int(input(\"Introduce un número entre 1 y 10: \"))\ncontador = 0\nfor n in num:\n    if n == numeroBuscar:\n        contador += 1\n# Mostrar la lista y el resultado\nprint(num)\nprint(\"El número\", numeroBuscar, \"aparece\", contador, \"veces en la lista.\")",
+        "detail": "boletin2.ejercicio05",
+        "documentation": {}
+    },
+    {
+        "label": "contador",
+        "kind": 5,
+        "importPath": "boletin2.ejercicio05",
+        "description": "boletin2.ejercicio05",
+        "peekOfCode": "contador = 0\nfor n in num:\n    if n == numeroBuscar:\n        contador += 1\n# Mostrar la lista y el resultado\nprint(num)\nprint(\"El número\", numeroBuscar, \"aparece\", contador, \"veces en la lista.\")",
+        "detail": "boletin2.ejercicio05",
+        "documentation": {}
+    },
+    {
+        "label": "cadena",
+        "kind": 5,
+        "importPath": "boletin2.ejercicio06",
+        "description": "boletin2.ejercicio06",
+        "peekOfCode": "cadena = str(input(\"Introduce una cadena de texto: \"))\n# Generamos una diccionario que cuente la frecuencia de cada palabra en la cadena\npalabras = {}\nfor i in cadena.split():\n    if i in palabras:\n        palabras[i] += 1\n    else:\n        palabras[i] = 1\n# Mostramos el resultado\nprint(palabras)",
+        "detail": "boletin2.ejercicio06",
+        "documentation": {}
+    },
+    {
+        "label": "palabras",
+        "kind": 5,
+        "importPath": "boletin2.ejercicio06",
+        "description": "boletin2.ejercicio06",
+        "peekOfCode": "palabras = {}\nfor i in cadena.split():\n    if i in palabras:\n        palabras[i] += 1\n    else:\n        palabras[i] = 1\n# Mostramos el resultado\nprint(palabras)",
+        "detail": "boletin2.ejercicio06",
+        "documentation": {}
+    },
+    {
+        "label": "agregar_contacto",
+        "kind": 2,
+        "importPath": "boletin2.ejercicio07",
+        "description": "boletin2.ejercicio07",
+        "peekOfCode": "def agregar_contacto(nombre, telefono):\n    agenda[nombre] = telefono\n    print(f\"Contacto {nombre} agregado con el teléfono {telefono}.\")\n# Función para eliminar un contacto\ndef eliminar_contacto(nombre):\n    if nombre in agenda:\n        agenda.pop(nombre)\n        print(\"Contacto eliminado.\")\n    else:\n        print(\"El contacto no existe.\")",
+        "detail": "boletin2.ejercicio07",
+        "documentation": {}
+    },
+    {
+        "label": "eliminar_contacto",
+        "kind": 2,
+        "importPath": "boletin2.ejercicio07",
+        "description": "boletin2.ejercicio07",
+        "peekOfCode": "def eliminar_contacto(nombre):\n    if nombre in agenda:\n        agenda.pop(nombre)\n        print(\"Contacto eliminado.\")\n    else:\n        print(\"El contacto no existe.\")\n# Función para buscar un contacto\ndef buscar_contacto(nombre):\n    if nombre in agenda:\n        print(\"Nombre:\",nombre, \"\\nTeléfono:\", agenda[nombre])",
+        "detail": "boletin2.ejercicio07",
+        "documentation": {}
+    },
+    {
+        "label": "buscar_contacto",
+        "kind": 2,
+        "importPath": "boletin2.ejercicio07",
+        "description": "boletin2.ejercicio07",
+        "peekOfCode": "def buscar_contacto(nombre):\n    if nombre in agenda:\n        print(\"Nombre:\",nombre, \"\\nTeléfono:\", agenda[nombre])\n    else:\n        print(\"El contacto no existe.\")\n# Menú de opciones\nwhile opciones != 4:\n    print(\"1. Agregar contacto\")\n    print(\"2. Eliminar contacto\")\n    print(\"3. Buscar contacto\")",
+        "detail": "boletin2.ejercicio07",
+        "documentation": {}
+    },
+    {
+        "label": "agenda",
+        "kind": 5,
+        "importPath": "boletin2.ejercicio07",
+        "description": "boletin2.ejercicio07",
+        "peekOfCode": "agenda = {}\nopciones = 0\n# Función para agregar un contacto\ndef agregar_contacto(nombre, telefono):\n    agenda[nombre] = telefono\n    print(f\"Contacto {nombre} agregado con el teléfono {telefono}.\")\n# Función para eliminar un contacto\ndef eliminar_contacto(nombre):\n    if nombre in agenda:\n        agenda.pop(nombre)",
+        "detail": "boletin2.ejercicio07",
+        "documentation": {}
+    },
+    {
+        "label": "opciones",
+        "kind": 5,
+        "importPath": "boletin2.ejercicio07",
+        "description": "boletin2.ejercicio07",
+        "peekOfCode": "opciones = 0\n# Función para agregar un contacto\ndef agregar_contacto(nombre, telefono):\n    agenda[nombre] = telefono\n    print(f\"Contacto {nombre} agregado con el teléfono {telefono}.\")\n# Función para eliminar un contacto\ndef eliminar_contacto(nombre):\n    if nombre in agenda:\n        agenda.pop(nombre)\n        print(\"Contacto eliminado.\")",
+        "detail": "boletin2.ejercicio07",
+        "documentation": {}
+    },
+    {
+        "label": "agregar_producto",
+        "kind": 2,
+        "importPath": "boletin2.ejercicio08",
+        "description": "boletin2.ejercicio08",
+        "peekOfCode": "def agregar_producto(nombre, total_vendido):\n    if total_vendido <= 0:\n        print(\"El total vendido debe ser un número positivo.\")\n    elif nombre in tienda:\n        tienda[nombre] += total_vendido\n    else:\n        tienda[nombre] = total_vendido\n# Función para calcular el total de ventas de un producto\ndef total_ventas(nombre):\n    cont = 0",
+        "detail": "boletin2.ejercicio08",
+        "documentation": {}
+    },
+    {
+        "label": "total_ventas",
+        "kind": 2,
+        "importPath": "boletin2.ejercicio08",
+        "description": "boletin2.ejercicio08",
+        "peekOfCode": "def total_ventas(nombre):\n    cont = 0\n    if nombre in tienda:\n        cont = tienda[nombre]\n    return cont\n# Menú de opciones\nwhile opciones != 3:\n    print(\"1. Agregar producto\")\n    print(\"2. Total de ventas de un producto\")\n    print(\"3. Salir\")",
+        "detail": "boletin2.ejercicio08",
+        "documentation": {}
+    },
+    {
+        "label": "tienda",
+        "kind": 5,
+        "importPath": "boletin2.ejercicio08",
+        "description": "boletin2.ejercicio08",
+        "peekOfCode": "tienda = {}\nopciones = 0\n# Función para agregar un producto\ndef agregar_producto(nombre, total_vendido):\n    if total_vendido <= 0:\n        print(\"El total vendido debe ser un número positivo.\")\n    elif nombre in tienda:\n        tienda[nombre] += total_vendido\n    else:\n        tienda[nombre] = total_vendido",
+        "detail": "boletin2.ejercicio08",
+        "documentation": {}
+    },
+    {
+        "label": "opciones",
+        "kind": 5,
+        "importPath": "boletin2.ejercicio08",
+        "description": "boletin2.ejercicio08",
+        "peekOfCode": "opciones = 0\n# Función para agregar un producto\ndef agregar_producto(nombre, total_vendido):\n    if total_vendido <= 0:\n        print(\"El total vendido debe ser un número positivo.\")\n    elif nombre in tienda:\n        tienda[nombre] += total_vendido\n    else:\n        tienda[nombre] = total_vendido\n# Función para calcular el total de ventas de un producto",
+        "detail": "boletin2.ejercicio08",
+        "documentation": {}
+    },
+    {
+        "label": "abecedario",
+        "kind": 5,
+        "importPath": "boletin2.ejercicio09",
+        "description": "boletin2.ejercicio09",
+        "peekOfCode": "abecedario = {\"a\": 1, \"b\": 3, \"c\": 3, \"d\": 2, \"e\": 1, \"f\": 4, \"g\": 2, \"h\": 4, \"i\": 1, \"j\": 8, \"k\": 5, \"l\": 1, \"m\": 3,\n               \"n\": 1, \"o\": 1, \"p\": 3, \"q\": 5, \"r\": 1, \"s\": 1, \"t\": 1, \"u\": 1, \"v\": 4, \"w\": 4, \"x\": 8, \"y\": 4, \"z\": 10}\n# Pedimos una palabra al usuario\npalabra = str(input(\"Introduce una palabra: \"))\n# Calculamos la puntuación total de la palabra\npuntuacion = 0\nfor letra in palabra.lower():\n    if letra in abecedario:\n        puntuacion += abecedario[letra]\n# Mostramos el resultado",
+        "detail": "boletin2.ejercicio09",
+        "documentation": {}
+    },
+    {
+        "label": "palabra",
+        "kind": 5,
+        "importPath": "boletin2.ejercicio09",
+        "description": "boletin2.ejercicio09",
+        "peekOfCode": "palabra = str(input(\"Introduce una palabra: \"))\n# Calculamos la puntuación total de la palabra\npuntuacion = 0\nfor letra in palabra.lower():\n    if letra in abecedario:\n        puntuacion += abecedario[letra]\n# Mostramos el resultado\nprint(\"La puntuación total de la palabra\", palabra, \"es:\", puntuacion)",
+        "detail": "boletin2.ejercicio09",
+        "documentation": {}
+    },
+    {
+        "label": "puntuacion",
+        "kind": 5,
+        "importPath": "boletin2.ejercicio09",
+        "description": "boletin2.ejercicio09",
+        "peekOfCode": "puntuacion = 0\nfor letra in palabra.lower():\n    if letra in abecedario:\n        puntuacion += abecedario[letra]\n# Mostramos el resultado\nprint(\"La puntuación total de la palabra\", palabra, \"es:\", puntuacion)",
+        "detail": "boletin2.ejercicio09",
+        "documentation": {}
+    },
+    {
+        "label": "encriptador",
+        "kind": 5,
+        "importPath": "boletin2.ejercicio10",
+        "description": "boletin2.ejercicio10",
+        "peekOfCode": "encriptador = {\"e\":\"p\", \"y\":\"v\", \"k\":\"i\", \"m\":\"u\", \"p\":\"m\", \"q\":\"t\", \"r\":\"e\", \"t\":\"r\", \"u\":\"q\", \"v\":\"s\"}\n# Pedimos una cadena la usuario\nfrase = str(input(\"Introduce una cadena de texto: \"))\n# Generamos una nueva cadena encriptada\nfrase_encriptada = \"\"\nfor letra in frase:\n    if letra in encriptador:\n        frase_encriptada += encriptador[letra]\n    else:\n        frase_encriptada += letra",
+        "detail": "boletin2.ejercicio10",
+        "documentation": {}
+    },
+    {
+        "label": "frase",
+        "kind": 5,
+        "importPath": "boletin2.ejercicio10",
+        "description": "boletin2.ejercicio10",
+        "peekOfCode": "frase = str(input(\"Introduce una cadena de texto: \"))\n# Generamos una nueva cadena encriptada\nfrase_encriptada = \"\"\nfor letra in frase:\n    if letra in encriptador:\n        frase_encriptada += encriptador[letra]\n    else:\n        frase_encriptada += letra\n# Mostramos el resultado\nprint(\"La cadena encriptada es:\", frase_encriptada)",
+        "detail": "boletin2.ejercicio10",
+        "documentation": {}
+    },
+    {
+        "label": "frase_encriptada",
+        "kind": 5,
+        "importPath": "boletin2.ejercicio10",
+        "description": "boletin2.ejercicio10",
+        "peekOfCode": "frase_encriptada = \"\"\nfor letra in frase:\n    if letra in encriptador:\n        frase_encriptada += encriptador[letra]\n    else:\n        frase_encriptada += letra\n# Mostramos el resultado\nprint(\"La cadena encriptada es:\", frase_encriptada)",
+        "detail": "boletin2.ejercicio10",
+        "documentation": {}
+    },
+    {
+        "label": "CuentaCorriente",
+        "kind": 6,
+        "importPath": "boletin3.ejercicio01",
+        "description": "boletin3.ejercicio01",
+        "peekOfCode": "class CuentaCorriente:\n    def __init__(self, dni, saldo, nombre = \"\"):\n        self.__dni = dni\n        self.__nombre = nombre\n        self.__saldo = saldo\n    # Getters\n    def getDni(self):\n        return self.__dni\n    def getNombre(self):\n        return self.__nombre",
+        "detail": "boletin3.ejercicio01",
+        "documentation": {}
+    },
+    {
+        "label": "Libro",
+        "kind": 6,
+        "importPath": "boletin3.ejercicio02",
+        "description": "boletin3.ejercicio02",
+        "peekOfCode": "class Libro:\n    # Constructor\n    def __init__(self, titulo, autor, ejemplares, ejemplaresPrestados):\n        self.__titulo = titulo\n        self.__autor = autor\n        self.__ejemplares = ejemplares\n        self.__ejemplaresPrestados = ejemplaresPrestados\n    # Getters\n    def getTitulo(self):\n        return self.__titulo",
+        "detail": "boletin3.ejercicio02",
+        "documentation": {}
+    },
+    {
+        "label": "Punto",
+        "kind": 6,
+        "importPath": "boletin3.ejercicio03",
+        "description": "boletin3.ejercicio03",
+        "peekOfCode": "class Punto:\n    # Constructor\n    def __init__(self, x, y):\n        self.__x = x\n        self.__y = y\n    # Getters\n    def getX(self):\n        return self.__x\n    def getY(self):\n        return self.__y",
+        "detail": "boletin3.ejercicio03",
+        "documentation": {}
+    },
+    {
+        "label": "Articulo",
+        "kind": 6,
+        "importPath": "boletin3.ejercicio04",
+        "description": "boletin3.ejercicio04",
+        "peekOfCode": "class Articulo:\n    IVA = 21\n    def __init__(self, nombre, precio, cuantosQuedan):\n        self.__nombre = nombre\n        self.__precio = precio\n        self.__cuantosQuedan = cuantosQuedan\n    # Getters\n    def getNombre(self):\n        return self.__nombre\n    def getPrecio(self):",
+        "detail": "boletin3.ejercicio04",
+        "documentation": {}
+    },
+    {
+        "label": "Animal",
+        "kind": 6,
+        "importPath": "boletin4.ejercicio01.Animal",
+        "description": "boletin4.ejercicio01.Animal",
+        "peekOfCode": "class Animal:\n    # Constructor\n    def __init__(self, nombre, numPatas):\n        self.__nombre = nombre\n        self.__numPatas = numPatas\n    # Métodos\n    def habla(self):\n        cadena = \"\"\n        return cadena\n    def __str__(self):",
+        "detail": "boletin4.ejercicio01.Animal",
+        "documentation": {}
+    },
+    {
+        "label": "Gato",
+        "kind": 6,
+        "importPath": "boletin4.ejercicio01.Gato",
+        "description": "boletin4.ejercicio01.Gato",
+        "peekOfCode": "class Gato(Animal):\n    # Constructor\n    def __init__(self, nombre, numPatas):\n        super().__init__(nombre, numPatas)\n    # Métodos\n    def habla(self):\n        cadena = \"Miau\"\n        return cadena\n    def __str__(self):\n        cadena = f\"Soy un gato. {super().__str__()}\"",
+        "detail": "boletin4.ejercicio01.Gato",
+        "documentation": {}
+    },
+    {
+        "label": "Perro",
+        "kind": 6,
+        "importPath": "boletin4.ejercicio01.Perro",
+        "description": "boletin4.ejercicio01.Perro",
+        "peekOfCode": "class Perro(Animal):\n    # Constructor\n    def __init__(self, nombre, numPatas):\n        super().__init__(nombre, numPatas)\n    # Métodos\n    def habla(self):\n        cadena = \"Guau\"\n        return cadena\n    def __str__(self):\n        cadena = f\"Soy un perro. {super().__str__()}\"",
+        "detail": "boletin4.ejercicio01.Perro",
+        "documentation": {}
+    },
+    {
+        "label": "Directivo",
+        "kind": 6,
+        "importPath": "boletin4.ejercicio02.Directivo",
+        "description": "boletin4.ejercicio02.Directivo",
+        "peekOfCode": "class Directivo(Empleado):\n    # Constructor\n    def __init__(self, nombre):\n        super().__init__(nombre)\n    # Métodos\n    def __str__(self):\n        cadena = f\"{super().__str__()} --> Directivo\"\n        return cadena",
+        "detail": "boletin4.ejercicio02.Directivo",
+        "documentation": {}
+    },
+    {
+        "label": "Empleado",
+        "kind": 6,
+        "importPath": "boletin4.ejercicio02.Empleado",
+        "description": "boletin4.ejercicio02.Empleado",
+        "peekOfCode": "class Empleado:\n    # Constructor\n    def __init__(self, nombre):\n        self.__nombre = nombre\n    # Get\n    def getNombre(self):\n        return self.__nombre\n    # Set\n    def setNombre(self, nombre):\n        self.__nombre = nombre",
+        "detail": "boletin4.ejercicio02.Empleado",
+        "documentation": {}
+    },
+    {
+        "label": "Oficial",
+        "kind": 6,
+        "importPath": "boletin4.ejercicio02.Oficial",
+        "description": "boletin4.ejercicio02.Oficial",
+        "peekOfCode": "class Oficial(Operario):\n    # Constructor\n    def __init__(self, nombre):\n        super().__init__(nombre)\n    # Métodos\n    def __str__(self):\n        cadena = f\"{super().__str__()} --> Oficial\"\n        return cadena",
+        "detail": "boletin4.ejercicio02.Oficial",
+        "documentation": {}
+    },
+    {
+        "label": "Operario",
+        "kind": 6,
+        "importPath": "boletin4.ejercicio02.Operario",
+        "description": "boletin4.ejercicio02.Operario",
+        "peekOfCode": "class Operario(Empleado):\n    # Constructor\n    def __init__(self, nombre):\n        super().__init__(nombre)\n    # Métodos\n    def __str__(self):\n        cadena = f\"{super().__str__()} --> Operario\"\n        return cadena",
+        "detail": "boletin4.ejercicio02.Operario",
+        "documentation": {}
+    },
+    {
+        "label": "Tecnico",
+        "kind": 6,
+        "importPath": "boletin4.ejercicio02.Tecnico",
+        "description": "boletin4.ejercicio02.Tecnico",
+        "peekOfCode": "class Tecnico(Operario):\n    # Constructor\n    def __init__(self, nombre):\n        super().__init__(nombre)\n    # Métodos\n    def __str__(self):\n        return f\"{super().__str__()} --> Tecnico\"",
+        "detail": "boletin4.ejercicio02.Tecnico",
+        "documentation": {}
+    },
+    {
+        "label": "NoPerecedero",
+        "kind": 6,
+        "importPath": "boletin4.ejercicio03.NoPerecedero",
+        "description": "boletin4.ejercicio03.NoPerecedero",
+        "peekOfCode": "class NoPerecedero(Productos):\n    def __init__(self, nombre, precio, tipo):\n        super().__init__(nombre, precio)\n        self.__tipo = tipo\n    def calcular(self, cantidad):\n        return super().calcular(cantidad)",
+        "detail": "boletin4.ejercicio03.NoPerecedero",
+        "documentation": {}
+    },
+    {
+        "label": "Perecedero",
+        "kind": 6,
+        "importPath": "boletin4.ejercicio03.Perecedero",
+        "description": "boletin4.ejercicio03.Perecedero",
+        "peekOfCode": "class Perecedero(Productos):\n    def __init__(self, nombre, precio, diasCaducar):\n        super().__init__(nombre, precio)\n        self.__diasCaducar = diasCaducar\n    def calcular(self, cantidad):\n        if self.__diasCaducar == 1:\n            calculo = super().calcular(cantidad/4)\n        elif self.__diasCaducar == 2:\n            calculo = super().calcular(cantidad/3)\n        elif self.__diasCaducar == 3:",
+        "detail": "boletin4.ejercicio03.Perecedero",
+        "documentation": {}
+    },
+    {
+        "label": "Productos",
+        "kind": 6,
+        "importPath": "boletin4.ejercicio03.Productos",
+        "description": "boletin4.ejercicio03.Productos",
+        "peekOfCode": "class Productos:\n    def __init__(self, nombre, precio):\n        self.__nombre = nombre\n        self.__precio = precio\n    def calcular(self, cantidad):\n        calculo = self.__precio * cantidad\n        return calculo\n    def __str__(self):\n        return f\"El producto {self.__nombre} cuesta {self.__precio} €\"\n    def __lt__(self, objeto):",
+        "detail": "boletin4.ejercicio03.Productos",
+        "documentation": {}
+    }
+]

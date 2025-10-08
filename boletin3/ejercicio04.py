@@ -1,9 +1,11 @@
 # Creacion de clase
 class Articulo:
+
+    IVA = 21
+
     def __init__(self, nombre, precio, cuantosQuedan):
         self.__nombre = nombre
         self.__precio = precio
-        self.__iva = 21
         self.__cuantosQuedan = cuantosQuedan
     
     # Getters
@@ -11,8 +13,6 @@ class Articulo:
         return self.__nombre
     def getPrecio(self):
         return self.__precio
-    def getIva(self):
-        return self.__iva
     def getCuantosQuedan(self):
         return self.__cuantosQuedan
     
@@ -22,7 +22,7 @@ class Articulo:
 
     # Métodos
     def getPVP(self):
-        PVP = self.__precio * (1 + self.__iva / 100)
+        PVP = self.__precio * (1 + Articulo.IVA / 100)
         return PVP
     
     def getPVPDescuento(self, descuento):
@@ -40,7 +40,7 @@ class Articulo:
         self.__cuantosQuedan += cantidadAlmacenar
 
     def __str__(self):
-        cadena = f"Nombre: {self.__nombre}, Precio: {self.__precio}, IVA: {self.__iva}, Stock: {self.__cuantosQuedan}"
+        cadena = f"Nombre: {self.__nombre}, Precio: {self.__precio}, Stock: {self.__cuantosQuedan}"
         return cadena
 
     def __eq__(self, objeto):
